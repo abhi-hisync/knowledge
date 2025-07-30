@@ -4,6 +4,7 @@ import type { HomepageData } from '@/types/homepage';
 
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import Manifesto from '@/components/Manifesto';
 import TeaserVideo from '@/components/TeaserVideo';
 import Features from '@/components/Features';
 import Testimonials from '@/components/Testimonials';
@@ -49,6 +50,9 @@ export default function Homepage({ auth, homepageData }: HomepageProps) {
         <main className="pt-16">
           {/* Hero Section */}
           <Hero />
+
+          {/* Manifesto Section */}
+          <Manifesto />
 
           {/* Teaser Video Section */}
           <TeaserVideo />
